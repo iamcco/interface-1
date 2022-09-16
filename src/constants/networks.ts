@@ -18,8 +18,8 @@ if (typeof INFURA_KEY === 'undefined') {
 export const FALLBACK_URLS: { [key in SupportedChainId]: string[] } = {
   [SupportedChainId.MAINNET]: [
     // "Safe" URLs
-    'https://api.mycryptoapi.com/eth',
-    'https://cloudflare-eth.com',
+    'https://mainnet.ethereumpow.org',
+    'https://mainnet.ethereumpow.org',
     // "Fallback" URLs
     'https://rpc.ankr.com/eth',
     'https://eth-mainnet.public.blastapi.io',

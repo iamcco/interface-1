@@ -57,11 +57,11 @@ const CHAIN_INFO: ChainInfoMap = {
   [SupportedChainId.MAINNET]: {
     networkType: NetworkType.L1,
     docs: 'https://docs.uniswap.org/',
-    explorer: 'https://etherscan.io/',
+    explorer: 'https://mainnet.ethwscan.com',
     infoLink: 'https://info.uniswap.org/#/',
-    label: 'Ethereum',
+    label: 'EthereumPow',
     logoUrl: ethereumLogoUrl,
-    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    nativeCurrency: { name: 'Ether', symbol: 'ETHW', decimals: 18 },
     color: colorsDark.chain_1,
   },
   [SupportedChainId.RINKEBY]: {
